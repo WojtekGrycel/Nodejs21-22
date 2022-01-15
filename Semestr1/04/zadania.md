@@ -118,11 +118,11 @@ getUser(2)
     .catch(...);
 ```
 
-6. Modyfikacja zadania 5 tak, aby pobrać kilku użytkowników w tej samej chwili wykorzystując `Promise.all()`. Wyświetlenie ich imion w konsoli. (id użytkowników: 2,5,7). Dodatkowo wyświetlenie informacji, że `Promise` został w pełni zakończony.
+6. Modyfikacja zadania 4 tak, aby pobrać kilku użytkowników w tej samej chwili wykorzystując `Promise.all()`. Wyświetlenie ich imion w konsoli. (id użytkowników: 2,5,7). Dodatkowo wyświetlenie informacji, że `Promise` został w pełni zakończony.
 
 7. Dodanie do zadania 5 zapisu całego obiektu pogody do pliku wykorzystując wbudowany moduł `fs` i funkcję `writeFile`. Zadanie polega na odpowiednim dostosowaniu funkcji `writeFile` aby obsługiwała `Promise`. 
 
-8. W zadaniu 7 zastąpmy moduł request `request` wraz z naszymi `Promise` na użycie biblioteki `axios`.
+8. W zadaniu 7 zastąpmy moduł request `request` wraz z naszymi `Promise` użyciem biblioteki `axios`.
 
 9. Zamieńmy również z zadania 8 opakowanie funkcji `writeFile` na wbudowany mechanizm w NodeJS zamieniający naszą funkcję zwrotną na `Promise`. W tym celu powinniśmy wykorzystać wbudowany moduł `util` i funkcję `util.promisify` ([dokumentacja](https://nodejs.org/dist/latest-v16.x/docs/api/util.html#util_util_promisify_original))
 

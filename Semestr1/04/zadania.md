@@ -128,11 +128,11 @@ getUser(2)
 
 10. Stwórzmy aplikacje która pobierze informacje o użytkowniku oraz jego pierwszym na liście albumie i przypisanych do niego zdjęciach.
 - Z pobranego użytkownika wyświetlmy na ekranie nazwę użytkownika. 
-- Z pobranego albumu wyświetlmy ilość wszystkich albumów oraz nazwę pierwszego z nich.
+- Z pobranego albumu wyświetlmy liczbę wszystkich albumów oraz nazwę pierwszego z nich.
 - Z pobranych zdjęć wyświetlmy wszystkie tytuły.
 
 Lista adresów do API
-- endpoint do użytkownika: https://jsonplaceholder.typicode.com/users/{userId}}
+- endpoint do użytkownika: https://jsonplaceholder.typicode.com/users/{userId}
 - endpoint do albumów: https://jsonplaceholder.typicode.com/albums?userId={userId}
 - endpoint do zdjęć: https://jsonplaceholder.typicode.com/photos?albumId={userId}
 

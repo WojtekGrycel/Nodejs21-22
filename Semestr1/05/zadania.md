@@ -58,7 +58,7 @@ add(4, 5)
     .catch( ... );
 ```
 
-3. Zmodyfikujmy nasze zadanie 4 tak aby zamiast `.then..catch` użyć `await`.
+3. Zmodyfikujmy nasze zadanie 2 tak aby zamiast `.then..catch` użyć `await`.
 
 4. Wykorzystując wiedzę z poprzednich zajęć użyjmy zewnętrznej biblioteki `axios` i pobierzmy użytkownika dane wykorzystując składnię `async/await`.
 
